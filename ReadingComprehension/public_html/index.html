@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Comprehension</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <audio id="correctAns" src="Jolly Laugh-SoundBible.com-874430997.mp3" preload="auto"></audio>
+        <audio id="wrongAns" src="Uh-oh-sound-effect.mp3" preload="auto"></audio>
+        <div class="pic_sent">
+            <img src="beachboy.jpg" alt="beach boy">
+            <form class="sent">
+                <input type="radio" name="pic1Sent" value="The boy is sleeping" id="sleeping"> The boy is sleeping<br>
+                <input type="radio" name="pic1Sent" value="The boy is at school" id="school"> The boy is at school<br>
+                <input type="radio" name="pic1Sent" value="The boy is at the beach" id="beach"> The boy is at the beach<br>
+                <input type="radio" name="pic1Sent" value="The boy is in a car" id="car"> The boy is in a car<br>
+                <input type="button" class="button" value="check answer" onclick="verifyAnswer()">
+            </form>            
+        </div>
+        <div class="navigate_page">
+            <image src="arrow_button_metal_green_left.png" alt="left arrow">
+            <image src="arrow_button_metal_green_right.png" alt="right arrow">
+        </div>        
+    </body>
+</html>

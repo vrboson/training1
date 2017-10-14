@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 3, 2017, 5:54:47 PM
+    Author     : vvgay
+*/
+
+.pic_sent{
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+}
+.sent{
+    font-size:xx-large;
+}
+.button{
+    padding: 10px;
+    margin: 30px;
+    background-color:#228B22;
+    color:white;
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.navigate_page{
+    margin:auto;
+    width: 20%;
+    padding-left: 100px;
+}
